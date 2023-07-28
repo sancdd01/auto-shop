@@ -1,0 +1,19 @@
+.feature-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-div h6 {
+  color: rgb(182, 139, 46);
+}
+
+.feature-spans {
+  display: flex;
+  flex-direction: row;
+}
+
+.feature-span-vhr {
+  border-left: 1px solid black;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}

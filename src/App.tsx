@@ -1,12 +1,18 @@
 import "./App.css";
+import { Navbar } from "./component";
+import { About, Appt, Contact, Header, Map, Services } from "./container";
 
 function App() {
   return (
-    <>
-      <div>
-        <h1>Marlon's Auto Shop</h1>
-      </div>
-    </>
+    <div>
+      <Navbar />
+      <Header />
+      <About />
+      <Services />
+      <Appt />
+      <Contact />
+      <Map />
+    </div>
   );
 }
 

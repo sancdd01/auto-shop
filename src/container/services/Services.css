@@ -1,0 +1,10 @@
+.services-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-div hr {
+  border: 1px solid black;
+  width: 100%;
+  margin: 0;
+}
